@@ -11,7 +11,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
-import logo from "@/assets/revat-logo.asset.json";
+const logoSrc = "/Revat-Logo-new.svg";
 
 const navItems = [
   { href: "/Investors", id: "investors", label: "Investors" },
@@ -69,7 +69,7 @@ export function SiteHeader({ onApplyTrader }: SiteHeaderProps) {
     <header className={cn("site-header", scrolled && "is-scrolled")}>
       <div className="site-wrap site-header-inner">
         <a href="/" className="brand-link" aria-label="Revat home">
-          <img src={logo.url} alt="Revat Crypto Fund" className="brand-logo" />
+          <img src={logoSrc} alt="Revat Crypto Fund" className="brand-logo" />
         </a>
 
         <nav className="nav-pill" aria-label="Main navigation">
