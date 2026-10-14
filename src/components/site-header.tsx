@@ -1,6 +1,6 @@
 import { useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { ArrowUpRight, Menu } from "lucide-react";
+import { ArrowRight, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -88,7 +88,7 @@ export function SiteHeader({ onApplyTrader }: SiteHeaderProps) {
         <div className="header-actions">
           <Button variant="gold" className="header-cta hidden sm:inline-flex" onClick={apply}>
             Apply as a Trader
-            <ArrowUpRight />
+            <ArrowRight />
           </Button>
 
           <Sheet open={open} onOpenChange={setOpen}>
@@ -122,7 +122,7 @@ export function SiteHeader({ onApplyTrader }: SiteHeaderProps) {
               </nav>
               <Button variant="gold" className="header-cta mt-8 w-full" onClick={apply}>
                 Apply as a Trader
-                <ArrowUpRight />
+                <ArrowRight />
               </Button>
             </SheetContent>
           </Sheet>

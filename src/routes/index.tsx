@@ -43,7 +43,7 @@ function Index() {
           <p className="hero-description">Back verified crypto traders you choose, from your own<br className="hidden sm:block" /> exchange accounts, with built-in risk controls.</p>
           <div className="hero-actions pointer-events-auto">
             <Button variant="gold" size="hero" asChild><a href="#portfolio">Explore Investing <ArrowRight /></a></Button>
-            <Button variant="premium" size="hero" onClick={openTrader}>Apply as a Trader <ArrowUpRight /></Button>
+            <Button variant="premium" size="hero" onClick={openTrader}>Apply as a Trader <ArrowRight /></Button>
           </div>
           </div>
           <OrbitalSphereBackground className="hero-orbital" />
