@@ -152,7 +152,7 @@
 /* Discipline: editorial columns with softly displayed asset illustrations. */
 .discipline-section { --discipline-line: color-mix(in oklab, var(--muted-foreground) 42%, var(--background)); --discipline-art-opacity: 0.55; }
 .discipline-title { max-width: 1060px; margin: 0; font-size: clamp(32px, 3.3vw, 48px); font-weight: 500; line-height: 1.14; letter-spacing: -0.045em; text-wrap: balance; }
-.discipline-title span { color: color-mix(in oklab, var(--muted-foreground) 68%, var(--background)); }
+.discipline-title, .discipline-title span { color: var(--foreground); }
 .discipline-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-top: clamp(64px, 8vw, 128px); }
 .discipline-item { min-width: 0; padding-inline: 30px; border-left: 1px solid var(--border); }
 .discipline-item:first-child { padding-left: 0; border-left: 0; }
@@ -162,8 +162,8 @@
 /* These assets fill their source canvases; match the first asset's inset artwork.
    Transform preserves the shared image slot and the alignment of the text below. */
 .discipline-art-compact { transform: scale(0.45); filter: brightness(0.8); }
-.discipline-item h3 { margin: 0 0 12px; font-size: 15px; font-weight: 500; line-height: 1.5; }
-.discipline-item p { margin: 0; font-size: 15px; line-height: 1.65; color: color-mix(in oklab, var(--muted-foreground) 80%, var(--background)); }
+.discipline-item h3 { margin: 0 0 12px; font-size: 18px; font-weight: 600; line-height: 1.4; color: var(--foreground); }
+.discipline-item p { margin: 0; font-size: 15px; line-height: 1.65; color: var(--muted-foreground); }
 @media (min-width: 641px) and (max-width: 900px) { .discipline-item { padding-inline: 18px; } .discipline-art { margin-block: 24px; } }
 @media (max-width: 640px) {
  .discipline-grid { grid-template-columns: 1fr; margin-top: 48px; gap: 36px; }

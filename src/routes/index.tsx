@@ -104,15 +104,6 @@ function Index() {
 
       <section className="proof-band"><div className="site-wrap proof-inner"><div className="flex items-center gap-4"><CircleCheck className="size-8 shrink-0 text-green-light" /><h2 className="text-lg font-medium">Built and tested.<br /><span className="text-muted-foreground">Ready to grow.</span></h2></div><p className="section-description">We’ve built and tested a working version of this model. Next, we’re opening it to more investors and traders. Proof-of-concept results don’t predict future performance or results at scale.</p></div></section>
 
-      <section id="blogs" className="section site-wrap">
-        <h2 className="section-title">Notes from the desk.</h2>
-        <p className="section-description">Short reads on talent, verification, and building a portfolio you control.</p>
-        <div className="blogs-grid">
-          <article className="blog-card"><p className="blog-kicker">Investors</p><h3>Why ten traders, not one thesis</h3><p>Diversifying across verified talent is the point of the Revat portfolio — not a single strategy dressed as a fund.</p></article>
-          <article className="blog-card"><p className="blog-kicker">Traders</p><h3>Three ways to prove your edge</h3><p>Trade logs, a read-only API, or a two-month demo. Evidence first, allocations second.</p></article>
-          <article className="blog-card"><p className="blog-kicker">Risk</p><h3>Capital that stays in your accounts</h3><p>Subaccounts on Binance or Bybit, trading-only access, and risk controls designed to step in early.</p></article>
-        </div>
-      </section>
 
       <SiteCta onApplyTrader={openTrader} investingHref="#portfolio" />
     </main>
